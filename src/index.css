@@ -1,27 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 @import "tailwindcss";
 @plugin "daisyui";
 
+* {
+   font-family: "Inter";
+   box-sizing: border-box;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+}
+
 .bg-dark {
-  background-color: #18230F;
+  background-color: #222831;
 }
 
 .bg-semilight {
-  background-color: #27391C;
+  background-color: #1e2227;
 }
 
 .bg-light {
-  background-color: #255F38;
+  background-color: #948979;
 }
 
 .bg-superlight {
-  background-color: #1F7D53;
+  background-color: #DFD0B8;
 }
 
 .text-dark {
-  color: #255F38;
+  color: #948979;
 }
 
 .text-light {
-  color: #1F7D53;
+  color: #DFD0B8;
 }
 
