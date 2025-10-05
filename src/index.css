@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.bg-dark {
+  background-color: #18230F;
+}
+
+.bg-semilight {
+  background-color: #27391C;
+}
+
+.bg-light {
+  background-color: #255F38;
+}
+
+.bg-superlight {
+  background-color: #1F7D53;
+}
+
+.text-dark {
+  color: #255F38;
+}
+
+.text-light {
+  color: #1F7D53;
+}
+
