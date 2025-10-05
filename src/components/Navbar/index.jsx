@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-        <div className='border w-[45%] mx-auto p-10 bg-semilight' >
+        <div className='w-full' >
             <div className='flex items-center gap-8 ' >
             <img src={profileImage} alt="" className='w-25 h-25 rounded-full'/>    
             <div>

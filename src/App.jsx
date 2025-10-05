@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar/'
+import Main from './components/Main'
 
 const App = () => {
 
 
   return (
     <div className='bg-dark h-[100vh]' >
-      <Navbar /> 
+      <Main />
     </div>
   )
 }

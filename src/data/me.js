@@ -7,9 +7,22 @@ export const me = [
         location: "Khulna, Bangladesh",
         role: "Frontend Developer",
         currentlyLearning: "FullStack Development",
-        bio: "Hey there! I'm Jerome Mondol, a student and builder eager about creating amazing web experiences using HTML, CSS, JavaScript, React, and modern web technologies.",
+        bio: "Hey, I'm Jerome Mondol, a student building web experiences with React, JavaScript, and modern web tech.",
         social : {
             github: "https://github.com/Jerome-Mondol",
         }
     }
+]
+
+export const experiences = [
+    {
+        companyName: "Labmentix",
+        type: "Internship",
+        domain: "Web Development",
+        duration: "6 months",
+        timeline: "19/8/2025 to N/A",
+        description: "Working on building full-stack web applications, handling both frontend and backend development.",
+        status: "Ongoing",
+    },
+    
 ]
