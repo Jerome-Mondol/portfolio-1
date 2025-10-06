@@ -7,7 +7,7 @@ const Experience = () => {
     return (
         <>
             <div>
-                <h1 className='text-dark text-3xl mt-10 font-bold underline' >Experience</h1>
+                <h1 className='text-dark text-2xl mt-10 font-bold underline' >Experience</h1>
                 {[...experiences].reverse().map(({ companyName, type, domain, duration, timeline, description, status, location }, index) => (
                     <ul className="list text-dark" key={companyName}>
                         <li className="list-row">

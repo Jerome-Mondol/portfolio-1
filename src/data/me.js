@@ -32,16 +32,16 @@ export const tech = [
   {
     category: "Frontend",
     items: [
-      {
-        name: "HTML5",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-        color: "from-orange-500 to-red-500"
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-        color: "from-blue-500 to-blue-600"
-      },
+      // {
+      //   name: "HTML5",
+      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+      //   color: "from-orange-500 to-red-500"
+      // },
+      // {
+      //   name: "CSS3",
+      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+      //   color: "from-blue-500 to-blue-600"
+      // },
       {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -62,16 +62,16 @@ export const tech = [
         icon: "https://raw.githubusercontent.com/shadcn-ui/ui/refs/heads/main/apps/v4/public/android-chrome-512x512.png",
         color: "from-purple-400 to-purple-600"
       },
-      {
-        name: "daisyUI",
-        icon: "https://img.daisyui.com/images/daisyui/mark-static.svg",
-        color: "from-pink-400 to-pink-600"
-      },
-      {
-        name: "Bootstrap",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-        color: "from-purple-500 to-purple-700"
-      },
+      // {
+      //   name: "daisyUI",
+      //   icon: "https://img.daisyui.com/images/daisyui/mark-static.svg",
+      //   color: "from-pink-400 to-pink-600"
+      // },
+      // {
+      //   name: "Bootstrap",
+      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      //   color: "from-purple-500 to-purple-700"
+      // },
     ]
   },
   {

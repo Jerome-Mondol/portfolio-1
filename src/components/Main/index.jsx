@@ -6,7 +6,7 @@ import Projects from '../Projects'
 
 const Main = () => {
   return (
-    <div className='w-[45%] mx-auto bg-semilight p-10 border border-red-100' >
+    <div className='w-[45%] mx-auto bg-semilight p-10 border-x' >
       <Navbar />
       <Experience />
       <Tech />

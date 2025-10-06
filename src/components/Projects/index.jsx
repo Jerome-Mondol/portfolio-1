@@ -7,28 +7,41 @@ const Projects = () => {
     return (
         <>
             <div>
-                <h1 className='text-dark text-3xl mt-10 font-bold underline'>Personal Projects</h1>
-                {
-                    demoProjects.map(({name, description, techStack, status, image, link}, index) => (
-                        <div key={index + 1} >
-                            <div className='flex text-lg px-10 pt-5 gap-2 items-center' >
-                                <a href={link} target='_blank' className='text-blue-600'><FaArrowUpRightFromSquare /></a>
-                                <h1 className='text-secondary' >{name}</h1>
-                            </div>
-                            <div className='px-10' >
-                                <p>{description}</p>  
-                                <div className='w-fit mt-1' >
-                                    {
-                                        techStack.map((elem, index) => (
-                                                <div key={index + 1} >{elem}</div>
-                                        ))
-                                    }
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                }
-            </div>
+  <h1 className='text-dark text-2xl mt-10 font-bold underline'>Personal Projects</h1>
+
+  {/* Fixed Grid Layout */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5 w-[91%] mx-auto">
+    {demoProjects.map(({ name, description, techStack, status, image, link }, index) => (
+      <div
+        key={index}
+        className="bg-light rounded-lg py-7 px-5 shadow-sm hover:shadow-md transition-shadow duration-200"
+      >
+        <div className="flex text-lg gap-2 items-center px-10">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-600">
+            <FaArrowUpRightFromSquare />
+          </a>
+          <h1 className="text-secondary font-semibold">{name}</h1>
+        </div>
+
+        <div className="px-10 mt-2">
+          <p className="text-sm text-gray-700">{description}</p>
+          <div className="flex flex-wrap gap-2 mt-2">
+            {techStack.map((elem, idx) => (
+              <span
+                key={idx}
+                className="text-xs bg-semilight px-2 py-1 rounded-md border border-gray-300 text-gray-600"
+              >
+                {elem}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+            
         </>
     )
 }
