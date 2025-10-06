@@ -148,8 +148,9 @@ export const demoProjects = [
     description: "A personal portfolio to showcase projects and skills.",
     techStack: ["React", "TailwindCSS", "Vite"],
     status: "Completed",
-    image: "https://via.placeholder.com/150",
+    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
     link: "https://yourportfolio.com",
+    githubLink: "https://github.com/Jerome-Mondol",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
@@ -157,8 +158,9 @@ export const demoProjects = [
     description: "A CRUD Todo application with local storage support.",
     techStack: ["JavaScript", "HTML5", "CSS3"],
     status: "Completed",
-    image: "https://via.placeholder.com/150",
+    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
     link: "https://yourtodoapp.com",
+    githubLink: "https://github.com/Jerome-Mondol",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
   },
   {
@@ -166,8 +168,9 @@ export const demoProjects = [
     description: "Shows real-time weather info using OpenWeather API.",
     techStack: ["React", "Axios", "TailwindCSS"],
     status: "In Progress",
-    image: "https://via.placeholder.com/150",
+    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
     link: "",
+    githubLink: "https://github.com/Jerome-Mondol",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
@@ -175,17 +178,10 @@ export const demoProjects = [
     description: "Frontend UI mockup for an e-commerce site.",
     techStack: ["HTML5", "CSS3", "JavaScript"],
     status: "Completed",
-    image: "https://via.placeholder.com/150",
+    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
     link: "https://myecommercemockup.com",
+    githubLink: "https://github.com/Jerome-Mondol",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
   },
-  {
-    name: "Chat App",
-    description: "Realtime chat app using Firebase.",
-    techStack: ["React", "Firebase", "TailwindCSS"],
-    status: "In Progress",
-    image: "https://via.placeholder.com/150",
-    link: "",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-  }
+  
 ];
