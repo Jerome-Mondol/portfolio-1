@@ -18,7 +18,7 @@ const Navbar = () => {
             </div>
             </div>
             <div>
-                <p className='mt-3 text-light' >{bio}</p>
+                <p className='mt-3 text-secondary' >{bio}</p>
             </div>
         </div> 
     </>
