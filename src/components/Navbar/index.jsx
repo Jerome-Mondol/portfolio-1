@@ -1,10 +1,10 @@
 import React from 'react'
-import { me } from '../../data/me' 
+import { me } from '../../data/me.js' 
 
 
 const Navbar = () => {
 
-    const { name, profileImage, role, location, bio } = me[0];
+    const { name, profileImage, role, location, bio } = me;
 
   return (
     <>

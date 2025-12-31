@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { experiences } from '../../data/me'
+import { experiences } from '../../data/me.js'
 
 const Experience = () => {
 
@@ -15,7 +15,6 @@ const Experience = () => {
                             <div>
                                 <div className="text-xl w-fit tooltip font-semibold" data-tip={location}>{companyName} - {type}</div>
                                 <div className="text-xs uppercase font-semibold opacity-60 w-fit">{domain} - {duration}</div>
-                                {/* <div className=' w-fit' >{timeline}</div> */}
                                 <div className=' w-fit' >Status: {status}</div>
 
                                 <div className='mt-2 ' >{description}</div>

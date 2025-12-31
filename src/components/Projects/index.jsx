@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import { demoProjects } from "../../data/me";
+import { demoProjects } from "../../data/me.js";
 
 const Projects = () => {
   return (

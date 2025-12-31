@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { tech } from '../../data/me';
+import { tech } from '../../data/me.js';
 import Technologies from './Technologies';
 
 const Tech = () => {

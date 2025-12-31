@@ -6,7 +6,7 @@ const App = () => {
 
 
   return (
-    <div className='bg-dark h-auto inset-shadow-sm ' >
+    <div className='bg-dark h-auto inset-shadow-sm' >
       <Main />
     </div>
   )

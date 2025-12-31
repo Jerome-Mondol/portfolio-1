@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { tech } from "../../data/me";
+import { tech } from "../../data/me.js";
 
 const itemVariants = {
   hidden: { opacity: 0, scale: 0.9 },

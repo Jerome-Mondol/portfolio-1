@@ -1,30 +1,29 @@
-export const me = [
-    {
-        name: "Jerome",
-        profileImage: "pfp.png",
-        class: 9,
-        Age: 14,
-        location: "Khulna, Bangladesh",
-        role: "Frontend Developer",
-        currentlyLearning: "FullStack Development",
-        bio: "Hey, I'm Jerome Mondol, a student building web experiences with React, JavaScript, and modern web tech.",
-        social : {
-            github: "https://github.com/Jerome-Mondol",
-        }
-    }
-]
+export const me = {
+  name: "Jerome Mondol",
+  profileImage: "pfp.png",
+  class: 10,
+  Age: 15,
+  location: "Khulna, Bangladesh",
+  role: "MERN stack Developer",
+  currentlyLearning: "Next.js",
+  bio: "Hey, I'm Jerome Mondol, a student building web experiences with React, JavaScript, and modern web tech.",
+  social: {
+    github: "https://github.com/Jerome-Mondol",
+    linkedin: "https://www.linkedin.com/in/jeromemondol"
+  }
+}
 
 export const experiences = [
-    {
-        companyName: "Labmentix",
-        type: "Internship",
-        domain: "Web Development",
-        duration: "6 months",
-        timeline: "19/8/2025 to N/A",
-        description: "Working on building full-stack web applications, handling both frontend and backend development.",
-        status: "Ongoing",
-        location: "Bengaluru, India"
-    },
+  {
+    companyName: "Labmentix",
+    type: "Internship",
+    domain: "Web Development",
+    duration: "6 months",
+    timeline: "19/8/2025 to N/A",
+    description: "Working on building full-stack web applications, handling both frontend and backend development.",
+    status: "Ongoing",
+    location: "Bengaluru, India"
+  },
 ]
 
 
@@ -32,16 +31,6 @@ export const tech = [
   {
     category: "Frontend",
     items: [
-      // {
-      //   name: "HTML5",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-      //   color: "from-orange-500 to-red-500"
-      // },
-      // {
-      //   name: "CSS3",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-      //   color: "from-blue-500 to-blue-600"
-      // },
       {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -62,20 +51,15 @@ export const tech = [
         icon: "https://raw.githubusercontent.com/shadcn-ui/ui/refs/heads/main/apps/v4/public/android-chrome-512x512.png",
         color: "from-purple-400 to-purple-600"
       },
-      // {
-      //   name: "daisyUI",
-      //   icon: "https://img.daisyui.com/images/daisyui/mark-static.svg",
-      //   color: "from-pink-400 to-pink-600"
-      // },
-      // {
-      //   name: "Bootstrap",
-      //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-      //   color: "from-purple-500 to-purple-700"
-      // },
+      {
+        name: "daisyUI",
+        icon: "https://img.daisyui.com/images/daisyui/mark-static.svg",
+        color: "from-pink-400 to-pink-600"
+      },
     ]
   },
   {
-    category: "Backend/Fullstack",
+    category: "Backend",
     items: [
       {
         name: "Node.js",
@@ -144,13 +128,13 @@ export const tech = [
 
 export const demoProjects = [
   {
-    name: "Portfolio Website",
-    description: "A personal portfolio to showcase projects and skills.",
-    techStack: ["React", "TailwindCSS", "Vite"],
+    name: "Paw Mart",
+    description: "A place where pet lovers can connect.",
+    techStack: ["React", "TailwindCSS", "Node", "Express", "MongoDB"],
     status: "Completed",
-    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
-    link: "https://yourportfolio.com",
-    githubLink: "https://github.com/Jerome-Mondol",
+    image: "https://i.ibb.co.com/F4Wznn4L/Screenshot-from-2025-12-04-20-24-33.png",
+    link: "https://pawmart-84610.web.app/",
+    githubLink: "https://github.com/Jerome-Mondol/pawmart-client",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
@@ -183,5 +167,5 @@ export const demoProjects = [
     githubLink: "https://github.com/Jerome-Mondol",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
   },
-  
+
 ];
