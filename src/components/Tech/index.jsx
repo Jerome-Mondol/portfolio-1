@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { tech } from '../../data/me.js';
 import Technologies from './Technologies';
 
@@ -8,17 +8,17 @@ const Tech = () => {
 
   return (
     <div >
-      <h1 className="text-dark text-2xl mt-10 font-bold underline">Tech Stack</h1>
+      <h1 className="text-dark text-xl sm:text-2xl mt-10 font-bold underline">Tech Stack</h1>
 
       {/* Tabs */}
-      <div className="flex gap-5 justify-center items-center mt-5 bg-light py-2 mx-auto px-3 rounded-lg relative">
+      <div className="flex flex-wrap gap-2 sm:gap-5 justify-center items-center mt-5 bg-light py-2 mx-auto px-3 rounded-lg relative">
         {tech.map(({ category }) => {
           const isActive = section === category;
           return (
             <motion.h1
               key={category}
               className={`
-                text-secondary py-2 px-4 rounded-lg text-sm cursor-pointer
+                text-secondary py-2 px-2 sm:px-4 rounded-lg text-xs sm:text-sm cursor-pointer
                 font-semibold duration-150 relative
                 hover:!text-light
                 ${isActive ? "!text-light" : ""}
@@ -49,7 +49,7 @@ const Tech = () => {
       </div>
 
       <div className="mt-5">
-        <AnimatePresence mode="wait">
+        <AnimatePresence     mode="wait">
           <motion.div
             key={section}
             initial={{ opacity: 0, scale: 0.98, y: 15 }}

@@ -15,7 +15,7 @@ const Technologies = ({ domain }) => {
         transition={{
           layout: { duration: 0.3, ease: "easeInOut" },
         }}
-        className="flex justify-center items-center gap-5 flex-wrap w-full"
+        className="flex justify-center items-center gap-3 sm:gap-5 flex-wrap w-full"
       >
         {tech
           .filter(({ category }) => domain === category)
@@ -29,10 +29,10 @@ const Technologies = ({ domain }) => {
                 exit="hidden"
                 transition={{ duration: 0.25 }}
                 layout
-                className="flex py-2 px-4 justify-center items-center gap-2 rounded-lg shadow-sm bg-light/20 hover:bg-light/30 transition-all duration-200"
+                className="flex py-2 px-3 sm:px-4 justify-center items-center gap-2 rounded-lg shadow-sm bg-light/20 hover:bg-light/30 transition-all duration-200"
               >
-                <img src={icon} alt={name} className="w-8 h-8" />
-                <h1 className="text-base font-medium">{name}</h1>
+                <img src={icon} alt={name} className="w-6 h-6 sm:w-8 sm:h-8" />
+                <h1 className="text-sm sm:text-base font-medium">{name}</h1>
               </motion.div>
             ))
           )}

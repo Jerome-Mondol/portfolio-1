@@ -6,11 +6,11 @@ import { demoProjects } from "../../data/me.js";
 const Projects = () => {
   return (
     <div className="mt-10">
-      <h1 className="text-dark text-2xl font-bold underline mb-6 ">
+      <h1 className="text-dark text-xl sm:text-2xl font-bold underline mb-6 ">
         Personal Projects
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6  mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6  mx-auto">
         {demoProjects.map(
           ({ name, description, techStack, image, link, githubLink }, index) => (
             <motion.div
@@ -25,7 +25,7 @@ const Projects = () => {
                   <img
                     src={image}
                     alt={name}
-                    className="w-full h-48 object-cover rounded-t-2xl transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-32 sm:h-40 md:h-48 object-cover rounded-t-2xl transition-transform duration-300 group-hover:scale-105"
                   />
                   <a
                     href={link}
@@ -38,17 +38,17 @@ const Projects = () => {
                 </div>
               </a>
 
-              <div className="p-4 flex flex-col justify-between h-44">
+              <div className="p-3 sm:p-4 flex flex-col justify-between h-36 sm:h-40 md:h-44">
                 <div className="flex justify-between items-center">
-                  <h2 className="text-lg font-semibold text-dark group-hover:text-light transition-colors duration-200">
+                  <h2 className="text-base sm:text-lg font-semibold text-dark group-hover:text-light transition-colors duration-200">
                     {name}
                   </h2>
                   <a href={githubLink} target="_blank" rel="noopener noreferrer" className="text-dark hover:text-light">
-                    <FaGithub className="text-xl" />
+                    <FaGithub className="text-lg sm:text-xl" />
                   </a>
                 </div>
-                <p className="text-sm text-light/70 mt-2">{description}</p>
-                <div className="flex flex-wrap gap-2 mt-3">
+                <p className="text-xs sm:text-sm text-light/70 mt-2">{description}</p>
+                <div className="flex flex-wrap gap-1 sm:gap-2 mt-3">
                   {techStack.map((tech, i) => (
                     <span
                       key={i}

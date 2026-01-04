@@ -1,15 +1,17 @@
 export const me = {
   name: "Jerome Mondol",
-  profileImage: "pfp.png",
+  profileImage: "https://avatars.githubusercontent.com/u/165287567?v=4",
   class: 10,
   Age: 15,
   location: "Khulna, Bangladesh",
   role: "MERN stack Developer",
   currentlyLearning: "Next.js",
-  bio: "Hey, I'm Jerome Mondol, a student building web experiences with React, JavaScript, and modern web tech.",
+  // bio: "Hey, I'm Jerome Mondol, a student building web experiences with React, JavaScript, and modern web tech.",
+  bio: "My journey as a developer began with a fascination for how technology shapes our world. Over the years, I’ve honed my skills in building modern, responsive web applications, focusing on clean code and intuitive user experiences. I thrive on solving challenging problems and enjoy working across both frontend and backend stacks. Outside of programming, I’m passionate about football and love exploring new places. I believe in lifelong learning and always seek opportunities to grow, collaborate, and bring creative ideas to life. Whether I’m coding, brainstorming new projects, or enjoying a match, I bring energy and curiosity to everything I do.",
   social: {
     github: "https://github.com/Jerome-Mondol",
-    linkedin: "https://www.linkedin.com/in/jeromemondol"
+    linkedin: "https://www.linkedin.com/in/jeromemondol",
+    email: "jeromemondol11@gmail.com"
   }
 }
 
