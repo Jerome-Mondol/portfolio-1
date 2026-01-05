@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { demoProjects } from "../../data/me.js";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -38,7 +39,7 @@ const Projects = () => {
                 </div>
               </a>
 
-              <div className="p-3 sm:p-4 flex flex-col justify-between h-36 sm:h-40 md:h-44">
+              <div className="p-3 sm:p-4 flex flex-col justify-between min-h-48 sm:min-h-56 md:min-h-64 h-auto">
                 <div className="flex justify-between items-center">
                   <h2 className="text-base sm:text-lg font-semibold text-dark group-hover:text-light transition-colors duration-200">
                     {name}
@@ -58,6 +59,12 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+                <Link
+                  to={`/project/${name.replace(/\s+/g, "-").toLowerCase()}`}
+                  className="mt-3 inline-block text-xs sm:text-sm px-3 py-1 bg-zinc-900 text-dark rounded-md font-semibold hover:bg-light hover:text-dark transition-colors border-1 border-white/50"
+                >
+                  View More
+                </Link>
               </div>
             </motion.div>
           )

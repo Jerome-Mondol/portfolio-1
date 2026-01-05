@@ -137,37 +137,32 @@ export const demoProjects = [
     image: "https://i.ibb.co.com/F4Wznn4L/Screenshot-from-2025-12-04-20-24-33.png",
     link: "https://pawmart-84610.web.app/",
     githubLink: "https://github.com/Jerome-Mondol/pawmart-client",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    challenges: "Integrating real-time chat and handling image uploads were challenging. Learned about WebSockets and cloud storage.",
+    improvements: "Add user authentication, improve UI/UX, and add more features like pet adoption."
   },
   {
-    name: "Todo App",
-    description: "A CRUD Todo application with local storage support.",
-    techStack: ["JavaScript", "HTML5", "CSS3"],
+    name: "ApiTester",
+    description: "A project to learn about API and how it works.",
+    techStack: ["JavaScript", "MongoDB", "React", "Express", "Tailwind"],
     status: "Completed",
-    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
-    link: "https://yourtodoapp.com",
-    githubLink: "https://github.com/Jerome-Mondol",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    image: "https://i.ibb.co.com/zTL9c1kQ/Screenshot-from-2026-01-05-00-49-20.png",
+    link: "https://api-tester-client.vercel.app/",
+    githubLink: "https://github.com/Jerome-Mondol/apiTester-client",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    challenges: "Handling API errors and building a user-friendly interface for testing endpoints.",
+    improvements: "Add authentication, save API test history, and support more HTTP methods."
   },
   {
-    name: "Weather App",
-    description: "Shows real-time weather info using OpenWeather API.",
-    techStack: ["React", "Axios", "TailwindCSS"],
+    name: "Asset Verse",
+    description: "Asset Management system for HR's",
+    techStack: ["React", "Axios", "TailwindCSS", "MongoDB", "Firebase", "Express"],
     status: "In Progress",
     image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
-    link: "",
-    githubLink: "https://github.com/Jerome-Mondol",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    link: "https://asset-verse-d1aa8.web.app/",
+    githubLink: "https://github.com/Jerome-Mondol/assetVerse-client",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    challenges: "Designing a scalable asset tracking system and integrating multiple data sources.",
+    improvements: "Add analytics dashboard, notifications, and mobile support."
   },
-  {
-    name: "E-commerce Mockup",
-    description: "Frontend UI mockup for an e-commerce site.",
-    techStack: ["HTML5", "CSS3", "JavaScript"],
-    status: "Completed",
-    image: "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D",
-    link: "https://myecommercemockup.com",
-    githubLink: "https://github.com/Jerome-Mondol",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-  },
-
 ];
